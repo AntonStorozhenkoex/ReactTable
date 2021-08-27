@@ -36,13 +36,13 @@ const useStyles = makeStyles({
     marginBottom: "10px",
   },
   tableTools: {
-    width: "400px",
+    width: "350px",
     backgroundColor: "#CCCCFF",
     borderRadius: "25px",
     padding: "20px",
     position: "fixed",
     top: "25%",
-    right: "12%",
+    right: 0,
   },
 });
 
