@@ -1,8 +1,7 @@
 import { Table } from "./components/Table.jsx";
-import { AppBar, Grid, Toolbar, Typography } from "@material-ui/core";
+import { AppBar, Grid, Toolbar, makeStyles } from "@material-ui/core";
 import { Route, NavLink } from "react-router-dom";
 import { Profile } from "./components/Profile";
-import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles({
   link: {

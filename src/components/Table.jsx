@@ -2,9 +2,14 @@ import React, { useMemo } from "react";
 import { useTable, usePagination } from "react-table";
 import MOCK_DATA from "../data/MOCK_DATA.json";
 import { COLUMNS } from "./colums_name";
-import { makeStyles, Grid, Box, Typography } from "@material-ui/core";
-import Button from "@material-ui/core/Button";
-import ButtonGroup from "@material-ui/core/ButtonGroup";
+import {
+  makeStyles,
+  Grid,
+  Box,
+  Typography,
+  Button,
+  ButtonGroup,
+} from "@material-ui/core";
 
 const useStyles = makeStyles({
   table: {
