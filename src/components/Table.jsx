@@ -103,7 +103,7 @@ export const Table = () => {
                   {row.cells.map((cell) => {
                     return (
                       <td {...cell.getCellProps()} className={classes.item}>
-                        {cell.render("Cell")}
+                       {cell.render("Cell")} 
                       </td>
                     );
                   })}
