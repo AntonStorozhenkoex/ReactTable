@@ -1,8 +1,8 @@
-# React Table 
+# React Table
 
+## Lightweight and extensible data tables for React
 
-## Lightweight and extensible data tables for React 
- Build and design powerful datagrid experiences while retaining 100% control over markup and styles.
+Build and design powerful datagrid experiences while retaining 100% control over markup and styles.
 
 ### Designed to have zero design.
 
