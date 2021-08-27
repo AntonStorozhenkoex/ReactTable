@@ -32,3 +32,37 @@ export const COLUMNS = [
     accessor: "credit_card_number",
   },
 ];
+export const COLUMNS_SECOND = [
+  {
+    Header: "id",
+    accessor: "id",
+  },
+  {
+    Header: "First Name",
+    accessor: "first_name",
+  },
+  {
+    Header: "Last Name",
+    accessor: "last_name",
+  },
+  {
+    Header: "Time Zone",
+    accessor: "time_zone",
+  },
+  {
+    Header: "Phone",
+    accessor: "phone",
+  },
+  {
+    Header: "Job",
+    accessor: "job",
+  },
+  {
+    Header: "Car",
+    accessor: "car",
+  },
+  {
+    Header: "Password",
+    accessor: "password",
+  },
+];

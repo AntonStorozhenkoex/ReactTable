@@ -13,6 +13,10 @@ const useStyles = makeStyles({
     margin: "0 auto",
     borderCollapse: "separate",
   },
+  mainHeader: {
+    paddingTop: "70px",
+    marginBottom: "30px",
+  },
   headers: {
     fontWeight: "bold",
     textAlign: "left",
@@ -78,7 +82,7 @@ export const Table = () => {
   return (
     <Grid container direction="row">
       <Grid item>
-        <Box margin={4}>
+        <Box className={classes.mainHeader}>
           <Typography align="center" variant="h2" component="h2">
             React Table Database
           </Typography>
@@ -103,7 +107,7 @@ export const Table = () => {
                   {row.cells.map((cell) => {
                     return (
                       <td {...cell.getCellProps()} className={classes.item}>
-                       {cell.render("Cell")} 
+                        {cell.render("Cell")}
                       </td>
                     );
                   })}
